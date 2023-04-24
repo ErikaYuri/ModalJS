@@ -70,3 +70,19 @@
     margin-bottom: 1rem;
     padding-bottom: 1rem;
   }
+
+
+  .modal-body p {
+    margin-bottom: 1rem;
+  }
+  
+  #modal.hide,
+  #fade.hide {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  #modal.hide {
+    top: 0;
+  }
+  
